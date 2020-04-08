@@ -1,4 +1,45 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: darkgray;
+}
+
+.box-1 {
+  background-color: violet;
+}
+
+.box-2 {
+  background-color: indigo;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+.box-4 {
+  background-color: green;
+}
+
+.box-5 {
+  background-color: yellow;
+}
+
+.box-6 {
+  background-color: orange;
+}
+
+.box-7 {
+  background-color: red;
+}
+
+.box-8 {
+  background-color: lightseagreen;
 }
